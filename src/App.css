@@ -1,0 +1,39 @@
+body{
+  
+  background-color: aqua;
+  
+}
+.App{
+background-image: url("tiger.jpeg");
+width: 500px;
+min-height: 500px;
+margin: 40px auto;
+}
+footer{
+  
+  color: gold;
+}
+#to-do-form input{
+  background-color: ghostwhite;
+  border: 0;
+  width: 200px;
+  height:50px;
+  padding: 0 20 px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius:10px;
+}
+#to-do-form input:placeholder{
+  color: black;
+}
+#to-do-form input,#to-do-form button:focus{
+  outline: none;
+}
+#to-do-form button{
+  background-color: lightblue;
+  height:50px;
+  width:80px ;
+  border-radius:10px;
+  border: 0;
+  cursor: pointer;
+}

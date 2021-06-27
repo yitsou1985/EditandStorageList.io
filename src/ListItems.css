@@ -1,0 +1,36 @@
+.list{
+    color: goldenrod;
+    width: 300px;
+    background-color: 
+white;
+border-bottom-right-radius: 20px;
+height: 40px;
+margin:10px auto;
+}
+.list p {
+    font-size: 20px;
+    padding: 10px;
+    font-family: fantasy;
+    position: relative;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.faivicons{
+    margin:0 5px;
+    font-size: 15px;
+    
+
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: goldenrod;
+    font-size: 18px;
+    font-family: fantasy;
+}
+.list p input:focus{
+    outline:none;
+}
