@@ -10,7 +10,7 @@ library.add(faTrash);
 
 class App extends Component{
   userData;
-  constructor(props){
+   constructor(props){
     super(props);
     this.state={
       items:JSON.parse(localStorage.getItem('texte')),
