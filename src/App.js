@@ -13,7 +13,7 @@ class App extends Component{
    constructor(props){
     super(props);
     this.state={
-      items:JSON.parse(localStorage.getItem('texte')),
+       items:JSON.parse(localStorage.getItem('texte')),
       currentItem:{
         text:'',
         key:''
