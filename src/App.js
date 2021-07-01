@@ -21,7 +21,7 @@ class App extends Component{
       }
      
     }
-    this.handleInput=this.handleInput.bind(this);
+     this.handleInput=this.handleInput.bind(this);
     this.addItem=this.addItem.bind(this);
     this.deleteItem=this.deleteItem.bind(this);
     this.setUpdate=this.setUpdate.bind(this);
