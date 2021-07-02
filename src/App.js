@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import logo from './logo.svg';
+ import logo from './logo.svg';
 import './App.css';
 import ListItems from "./ListItems";
 import {library}from '@fortawesome/fontawesome-svg-core';
